@@ -11,30 +11,31 @@ A lightweight, containerized development environment for quant and data-driven p
 
 ## 📁 Project Structure
 
-```bash
 quant-dev-env/
 ├── docker-compose.yml       # Orchestrates services
 ├── Dockerfile               # Sets up Python/Jupyter environment
 ├── notebooks/               # Jupyter notebooks live here
 └── README.md                # This file
 
-📓 Included Notebooks
+## 📓 Included Notebooks
 intro.ipynb: Walkthrough of core tools (pandas, numpy, etc.)
 
-🛠️ Usage
+## 🛠️ Usage
+```bash
 git clone https://github.com/yourusername/quant-dev-env.git
 cd quant-dev-env
 docker compose up
+```
 
 Visit: http://localhost:8888 and start coding.
 
-🌱 Future Plans
+## 🌱 Future Plans
 Integrate KDB+/q support
 
 Add time-series finance datasets
 
 Enable automatic AWS deployment
 
-👤 Author
-Trey Jean
+## 👤 Author
+Trey Allan Jean-Baptiste
 github.com/TreyAllan
