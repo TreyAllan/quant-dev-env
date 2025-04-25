@@ -1,40 +1,40 @@
-# Quantitative Research Prototyping Environment
+# Quant Dev Env 🧠📈
 
-## Overview:
-This project provides a Dockerized environment for quantitative research and analysis using Python. It allows you to quickly spin up a reproducible environment with all the necessary tools for time-series data analysis, backtesting strategies, and more.
+A lightweight, containerized development environment for quant and data-driven projects using JupyterLab, Python, and Docker.
 
-## Getting Started:
-Follow the steps below to run this project locally.
+## 🚀 Features
 
-### Prerequisites:
-- Docker
-- Docker Compose
+- 📦 Runs in Docker with isolated dependencies
+- 📊 JupyterLab interface with preinstalled libraries (`pandas`, `numpy`, `matplotlib`)
+- 🔒 Safe local sandbox for experimenting with quant strategies and data pipelines
+- 🧪 Easy to extend with additional tools (e.g., KDB+/q, PostgreSQL, etc.)
 
-### Installation:
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/your-repo/quant-dev-env.git
-    cd quant-dev-env
-    ```
+## 📁 Project Structure
 
-2. Build the Docker container:
-    ```bash
-    docker-compose up --build
-    ```
+```bash
+quant-dev-env/
+├── docker-compose.yml       # Orchestrates services
+├── Dockerfile               # Sets up Python/Jupyter environment
+├── notebooks/               # Jupyter notebooks live here
+└── README.md                # This file
 
-3. Open Jupyter Lab in your browser:
-    ```bash
-    http://127.0.0.1:8888/lab
-    ```
+📓 Included Notebooks
+intro.ipynb: Walkthrough of core tools (pandas, numpy, etc.)
 
-4. Start using the notebooks in the `notebooks/` folder.
+🛠️ Usage
+git clone https://github.com/yourusername/quant-dev-env.git
+cd quant-dev-env
+docker compose up
 
-### Dependencies:
-- pandas
-- numpy
-- matplotlib
-- jupyterlab
+Visit: http://localhost:8888 and start coding.
 
-### License:
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+🌱 Future Plans
+Integrate KDB+/q support
 
+Add time-series finance datasets
+
+Enable automatic AWS deployment
+
+👤 Author
+Trey Jean
+github.com/TreyAllan
