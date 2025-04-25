@@ -10,13 +10,13 @@ A lightweight, containerized development environment for quant and data-driven p
 - 🧪 Easy to extend with additional tools (e.g., KDB+/q, PostgreSQL, etc.)
 
 ## 📁 Project Structure
-
+```bash
 quant-dev-env/
 ├-─ docker-compose.yml       # Orchestrates services
 ├── Dockerfile               # Sets up Python/Jupyter environment
 ├── notebooks/               # Jupyter notebooks live here
 └── README.md                # This file
-
+```
 ## 📓 Included Notebooks
 intro.ipynb: Walkthrough of core tools (pandas, numpy, etc.)
 
@@ -38,4 +38,5 @@ Enable automatic AWS deployment
 
 ## 👤 Author
 Trey Allan Jean-Baptiste
+
 github.com/TreyAllan
