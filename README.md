@@ -12,7 +12,7 @@ A lightweight, containerized development environment for quant and data-driven p
 ## 📁 Project Structure
 
 quant-dev-env/
-├── docker-compose.yml       # Orchestrates services
+├-─ docker-compose.yml       # Orchestrates services
 ├── Dockerfile               # Sets up Python/Jupyter environment
 ├── notebooks/               # Jupyter notebooks live here
 └── README.md                # This file
