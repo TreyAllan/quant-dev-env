@@ -1,0 +1,10 @@
+services:
+  jupyter:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/app/notebooks
+    container_name: quant-dev-jupyter
+
+
