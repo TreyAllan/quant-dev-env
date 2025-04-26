@@ -1,0 +1,23 @@
+# Python junk
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Docker-related
+*.tar
+*.tar.gz
+*.zip
+services/kdb/l64/q  # the actual q executable
+services/kdb/k4.lic # the license file
+services/kdb/*.so   # any compiled binaries
+
+# VSCode or editor junk
+.vscode/
+.DS_Store
+.env
+
+# Other build artifacts
+*.log
+
